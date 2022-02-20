@@ -67,27 +67,27 @@ description: 使用免费的Github Page和Hexo搭建个人博客，选用next主
   
     然后新建一个仓库
   
-    <font color=#FF0000>**ps:** *只能使用一个同名仓库托管一个静态站点*</font>
-  
-    由于我已经创建好了，就网上找了张图
-    ![](https://cdn.jsdelivr.net/gh/zqzess/pichouse/pic/msedge_iPq2wb9mnr.png)
-  
-    下面是我的仓库设置
-    ![](https://cdn.jsdelivr.net/gh/zqzess/pichouse/pic/Options1.png)
-  
-    设置settings里面选择GitHub Page主题
-  
-    创建好后，就可以访问http://你的用户名.github.io查看初始效果了
-  
-  6. 配置ssh
-  
-    * 监测是否有已经存在的SSH keys:
-        
-        git bash 终端执行:`` ls -al ~/.ssh ``
-  
-        如果有SSH keys: 就会看到如下文件 id_rsa    id_rsa.pub
-        ![](https://cdn.jsdelivr.net/gh/zqzess/pichouse/pic/mintty_ZsX7TQaxMJ.png)
-        (除了我自己生成的这种,官方教程里说,SSH keys也有可能是以下几种文件:
+    <b style="color:#FF0000">ps:只能使用一个同名仓库托管一个静态站点</b>
+	-
+	- 由于我已经创建好了，就网上找了张图
+	    ![](https://cdn.jsdelivr.net/gh/zqzess/pichouse/pic/msedge_iPq2wb9mnr.png)
+	  
+	    下面是我的仓库设置
+	    ![](https://cdn.jsdelivr.net/gh/zqzess/pichouse/pic/Options1.png)
+	  
+	    设置settings里面选择GitHub Page主题
+	  
+	    创建好后，就可以访问http://你的用户名.github.io查看初始效果了
+	  
+	  6. 配置ssh
+	  
+	    * 监测是否有已经存在的SSH keys:
+	        
+	        git bash 终端执行:`` ls -al ~/.ssh ``
+	  
+	        如果有SSH keys: 就会看到如下文件 id_rsa    id_rsa.pub
+	        ![](https://cdn.jsdelivr.net/gh/zqzess/pichouse/pic/mintty_ZsX7TQaxMJ.png)
+	        (除了我自己生成的这种,官方教程里说,SSH keys也有可能是以下几种文件:
 	- id_dsa.pub
 	- id_ecdsa.pub
 	- id_ed25519.pub
@@ -186,43 +186,43 @@ description: 使用免费的Github Page和Hexo搭建个人博客，选用next主
 	      g是generate缩写,d是deploy缩写
 	  
 	      然后就可以访问https://你的用户名.github.io查看博客了
-## 写博客
-1. 新建文章
-
+- ## 写博客
+  1. 新建文章
+  
   git bash执行:``hexo new '文章标题'``
-
-  完成后在/source/_posts下可以看到'文章标题.md'的文件，md是MarkDown的拓展名,网上可以找到它的语法
-
+  
+  完成后在`/source/_posts`下可以看到'文章标题.md'的文件，md是MarkDown的拓展名,网上可以找到它的语法
+  
   文章写好依次后执行:
-
+  
   ```
   hexo g
   ```
-
+  
   ```
   hexo s
   ```
-
+  
   然后可以在http://localhost::4000预览效果
-
+  
   最后，发布到github，依次执行:
-
+  
   ```
   hexo clean
   ```
-
+  
   ```
   hexo g -d
   ```
-
+  
   hexo clean可以请出缓存和已生成静态文件
-
-2. 草稿
-
-  git bash执行:``hexo new draft '文章标题'
-
-  完成后在/source/_drafts下可以看到草稿
-
+  
+  2. 草稿
+  
+  git bash执行:``hexo new draft '文章标题'``
+  
+  完成后在`/source/_drafts`下可以看到草稿
+  
   发布草稿执行:``hexo publish [layout] <filename>``
 ### 写在最后
 主题文件可以放在myBlog/themes/下面
