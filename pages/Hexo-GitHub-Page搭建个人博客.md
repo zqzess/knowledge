@@ -87,11 +87,11 @@ description: 使用免费的Github Page和Hexo搭建个人博客，选用next主
 	  
 	        如果有SSH keys: 就会看到如下文件 id_rsa    id_rsa.pub
 	        ![](https://cdn.jsdelivr.net/gh/zqzess/pichouse/pic/mintty_ZsX7TQaxMJ.png)
-	        (除了我自己生成的这种,官方教程里说,SSH keys也有可能是以下几种文件:
+	        ( 除了我自己生成的这种,官方教程里说,SSH keys也有可能是以下几种文件:
 	- id_dsa.pub
 	- id_ecdsa.pub
-	- id_ed25519.pub
-	          )
+	- id_ed25519.pub )
+	  
 	      * 如果没有的话,就生成一个SSH keys:
 	  
 	          先执行以下命令配置本地账户:
