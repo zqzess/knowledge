@@ -9,26 +9,21 @@
 - # 本人计算机网络笔记总目录
   
   [计算机网络笔记 Part1 概述](https://blog.csdn.net/weixin_45067603/article/details/106974036)
-  
+   [[计算机网络笔记 Part1 概述_INlinKC 的博客 - CSDN 博客]]
   
   [计算机网络笔记 Part2 物理层（Physical Layer）](https://blog.csdn.net/weixin_45067603/article/details/106974965) 
-  
    [[计算机网络笔记 Part2 物理层（Physical Layer）_INlinKC 的博客 - CSDN 博客]]
   
   [计算机网络笔记 Part3 数据链路层（Data Link Layer）](https://blog.csdn.net/weixin_45067603/article/details/106980441)
-  
    [[计算机网络笔记 Part3 数据链路层（Data Link Layer）_INlinKC 的博客 - CSDN 博客]]
   
   [计算机网络笔记 Part4 网络层（Network Layer）](https://blog.csdn.net/weixin_45067603/article/details/106993253)
-  
    [[计算机网络笔记 Part4 网络层（Network Layer）_INlinKC 的博客 - CSDN 博客]]
   
   [计算机网络笔记 Part5 传输层（Transport Layer）](https://blog.csdn.net/weixin_45067603/article/details/107034202)
-  
    [[计算机网络笔记 Part5 传输层（Transport Layer）_INlinKC 的博客 - CSDN 博客]]
   
   [计算机网络笔记 Part6 应用层（Application Layer）](https://blog.csdn.net/weixin_45067603/article/details/107053479)
-  
    [[计算机网络笔记 Part6 应用层（Application Layer）_INlinKC 的博客 - CSDN 博客]]
 # 1. 速率相关性能指标
 ## 1.1 速率
